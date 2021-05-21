@@ -1,0 +1,47 @@
+.notice .field {
+  width: 100%;
+  position: relative;
+  border-bottom: 1px #E3E3E3 solid;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  font-size: 20px;
+}
+
+.notice .field:nth-last-child(1) {
+  border-bottom: none;
+}
+
+.notice .field .item {
+  margin-right: 0.5em;
+  display: inline-block;
+  text-align: right;
+  width: 3em;
+}
+
+.notice .field .content {
+  display: inline-block;
+}
+
+.credit .field {
+  width: 100%;
+  position: relative;
+  border-bottom: 1px #E3E3E3 solid;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  font-size: 20px;
+}
+
+.credit .field:nth-last-child(1) {
+  border-bottom: none;
+}
+
+.credit .field .item {
+  margin-right: 0.5em;
+  display: inline-block;
+  text-align: right;
+  width: 6em;
+}
+
+.credit .field .content {
+  display: inline-block;
+}
