@@ -1,0 +1,143 @@
+.field {
+  width: 100%;
+  position: relative;
+  border-bottom: 1px #E3E3E3 solid;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  font-size: 20px;
+  display: inline-flex;
+  overflow: hidden;
+}
+
+.field:nth-last-child(1) {
+  border-bottom: none;
+}
+
+.field .item {
+  margin-right: 0.5em;
+  display: inline-block;
+  text-align: right;
+  min-width: 5em;
+}
+
+.field .content {
+  display: inline-block;
+  position: absolute;
+  margin-left: 5.5em;
+  white-space: nowrap;
+}
+
+.field label {
+  margin-right: 0.5em;
+  display: inline-block;
+  text-align: right;
+  width: 5em;
+}
+
+form input {
+  outline: none;
+  border: 0;
+  border-radius: 6px;
+  font-size: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+}
+
+form .field i {
+  position: absolute;
+  top: 70%;
+  color: #ccc;
+  cursor: pointer;
+  transform: translate(-28px, -18px);
+}
+
+form .field i.active::before {
+  color: #333;
+  content: "\f070";
+}
+
+.button input {
+  text-align: center;
+  background: #4F4F4F;
+  color: #fff;
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.button input:hover {
+  text-align: center;
+  background: #333;
+  color: #fff;
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.error-text {
+  color: #CE5F58;
+  padding: 8px 10px;
+  text-align: center;
+  border-radius: 5px;
+  background: #f9eaea;
+  border: 1px solid #E5A9A5;
+  margin-bottom: 10px;
+  display: block;
+  font-size: 20px;
+}
+
+form .mobile {
+  outline: none;
+  background: #fff;
+  color: #333;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 0;
+  cursor: pointer;
+  font-size: 20px;
+  max-width: 250px;
+}
+
+form .mobile:focus {
+  border: 1px #E3E3E3 solid;
+}
+
+form .email {
+  outline: none;
+  background: #fff;
+  color: #333;
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  max-width: 250px;
+}
+
+form .email:focus {
+  border: 1px #E3E3E3 solid;
+}
+
+.table_title button {
+  background: #4F4F4F;
+  color: #fff;
+  border-radius: 6px;
+  outline: none;
+  border: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  height: 30px;
+  transform: translateY(-4px);
+}
+
+.table_title button:hover {
+  background: #333;
+}
+
+.table.ip table tbody tr {
+  white-space: nowrap;
+  text-align: left;
+}
