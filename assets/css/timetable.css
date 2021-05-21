@@ -1,0 +1,79 @@
+.home_content .text .time_table {
+  width: 100%;
+  overflow: scroll;
+}
+
+.home_content .text .time_table table {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 12px;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  white-space: nowrap;
+  font-size: 20px;
+}
+
+:is(.home_content .text .time_table)::-webkit-scrollbar{
+  width: 0px;
+}
+
+.home_content .text .time_table table tr:first-child th:first-child {
+  border-top-left-radius: 12px;
+}
+
+.home_content .text .time_table table tr:last-child td:first-child {
+  border-bottom-left-radius: 12px;
+}
+
+.home_content .text .time_table table tr:first-child th:last-child {
+  border-top-right-radius: 12px;
+}
+
+.home_content .text .time_table table tr:last-child td:last-child {
+  border-bottom-right-radius: 12px;
+}
+
+.home_content .text .time_table thead {
+  text-align: center;
+}
+
+.home_content .text .time_table tbody {
+  text-align: center;
+}
+
+.home_content .text .time_table thead tr {
+  background:	#D0D0D0;
+}
+
+.home_content .text .time_table thead tr th {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.home_content .text .time_table thead tr th i {
+  padding-right: 8px;
+}
+
+.home_content .text .time_table tbody tr:nth-child(odd) {
+  background:	#E8E8E8;
+}
+
+.home_content .text .time_table tbody tr:nth-child(odd):hover {
+  background:	#E3E3E3;
+}
+
+.home_content .text .time_table tbody tr:nth-child(even) {
+  background: #EDEDED;
+}
+.home_content .text .time_table tbody tr:nth-child(even):hover {
+  background: #E8E8E8;
+}
+
+.home_content .text .time_table tbody tr td {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}

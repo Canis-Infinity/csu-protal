@@ -1,0 +1,49 @@
+@media (min-width:1281px) {
+  .splash {
+    opacity: 1;
+    z-index: 99999;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('../../images/loading2.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    animation: fadeIn 0.5s ease-in forwards;
+  }
+}
+
+@media (max-width:1281px) {
+  .splash {
+    opacity: 1;
+    z-index: 99999;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('../../images/loading.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    animation: fadeIn 0.5s ease-in forwards;
+  }
+}
+
+.splash.display-none {
+  opacity: 0;
+  z-index: -5;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  transition-timing-function: linear;
+}
