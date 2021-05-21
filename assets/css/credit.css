@@ -1,11 +1,4 @@
-.notice {
-  width: 100%;
-  text-align: left;
-  font-size: 18px;
-  padding: 5px;
-}
-
-.notice .field {
+.credit .field {
   width: 100%;
   position: relative;
   border-bottom: 1px #E3E3E3 solid;
@@ -14,17 +7,17 @@
   font-size: 20px;
 }
 
-.notice .field:nth-last-child(1) {
+.credit .field:nth-last-child(1) {
   border-bottom: none;
 }
 
-.notice .field .item {
+.credit .field .item {
   margin-right: 0.5em;
   display: inline-block;
   text-align: right;
-  width: 3em;
+  width: 6em;
 }
 
-.notice .field .content {
+.credit .field .content {
   display: inline-block;
 }
