@@ -1,0 +1,24 @@
+{
+  "name": "登入｜正修訊息網",
+  "short_name": "正修訊息網",
+  "description": "正修訊息網",
+  "icons": [
+    {
+      "src": "images/app-icon.png",
+      "type": "image/png",
+      "sizes": "988x988"
+    }
+  ],
+  "scope": "./",
+  "start_url": "login.php",
+  "display": "fullscreen",
+  "theme_color": "#333",
+  "background_color": "#333",
+  "screenshots": [
+    {
+      "src": "images/loading.png",
+      "sizes": "any",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>https://csu-portal.bdrip.org/login.php</loc>
+
+      <lastmod>2021-05-20</lastmod>
+
+      <changefreq>always</changefreq>
+
+      <priority>1</priority>
+
+   </url>
+   
+   <url>
+
+      <loc>https://csu-portal.bdrip.org/index.php</loc>
+
+      <lastmod>2021-05-20</lastmod>
+
+      <changefreq>always</changefreq>
+
+      <priority>1</priority>
+
+   </url>
+
+</urlset> 
