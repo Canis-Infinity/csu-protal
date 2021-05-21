@@ -23,7 +23,7 @@
     <title>歷年學分｜正修訊息網</title>
     <?php include_once "head.html"; ?>
     <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/absence.css">
+    <link rel="stylesheet" href="assets/css/credit.css">
     <link rel="stylesheet" href="assets/css/description.css">
   </head>
   <?php include_once "head.html"; ?>
@@ -162,9 +162,7 @@
           </table>
         </div>
       </div>
-      <div class="footer">
-        <a target="_blank" href="https://www.csu.edu.tw/wSite/mp?mp=10001">正修學校財團法人正修科技大學</a>｜Copyright © 2021 Infinity資訊. All rights reserved.
-      </div>
+      <?php include_once "footer.html"; ?>
     </div>
     <script type="text/javascript">
       let btn = document.querySelector('#btn');
